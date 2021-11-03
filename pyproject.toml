@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "automation"
+version = "0.1.0"
+description = ""
+authors = ["Faisal-Kushha <fkushha89@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flake8 = "^4.0.1"
+Faker = "^9.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^21.10b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
